@@ -1,30 +1,49 @@
-# Maid ranking system
+# 🧹 Maids of Honour 👑
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Welcome to **Maids of Honour**, a gamified training and ranking platform for professional maids, built using **Dojo**, **Starknet**, and **React TypeScript**.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/inuaas-projects/v0-maid-ranking-system)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/KqiUnT2DODL)
+Maids play interactive mini-games based on real-life domestic service tasks. Based on performance, they get **ranked**, **trained**, or even **hired** through the platform.
 
-## Overview
+---
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Tech Stack
 
-## Deployment
+-  **Dojo** – For game logic and decentralized simulation
+-  **Starknet** – For on-chain verification, scorekeeping, and smart contracts
+- ⚛ **React** + **TypeScript** – For building a modern and interactive UI
 
-Your project is live at:
+---
 
-**[https://vercel.com/inuaas-projects/v0-maid-ranking-system](https://vercel.com/inuaas-projects/v0-maid-ranking-system)**
+## Gameplay Overview
 
-## Build your app
+1. **User Enters Platform**
+2. **Selects Preferences** (e.g., Maid, employee)
+3. **Plays the Game**
+4. **Gets Ranked**
+   - High performers are shown to potential employers.
+   - Lower-ranked players are guided to **training** to improve.
 
-Continue building your app on:
+---
 
-**[https://v0.dev/chat/projects/KqiUnT2DODL](https://v0.dev/chat/projects/KqiUnT2DODL)**
+##  Features
 
-## How It Works
+-  User profile with skill tracking
+-  Skill-based mini-games (time + accuracy focused)
+-  Rank and leaderboard system
+-  Smart contract-verified scores (via Starknet)
+-  Training suggestion engine for upskilling
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+---
+
+## Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/kootie/MOH-Game.git
+cd MOH-Game
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
