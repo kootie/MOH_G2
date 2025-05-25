@@ -10,7 +10,7 @@ Maids play interactive mini-games based on real-life domestic service tasks. Bas
 
 -  **Dojo** – For game logic and decentralized simulation
 -  **Starknet** – For on-chain verification, scorekeeping, and smart contracts
-- ⚛ **React** + **TypeScript** – For building a modern and interactive UI
+-  **React** + **TypeScript** – For building a modern and interactive UI
 
 ---
 
@@ -39,7 +39,7 @@ Maids play interactive mini-games based on real-life domestic service tasks. Bas
 
 ```bash
 # Clone the repo
-git clone https://github.com/kootie/MOH-Game.git
+git clone https://github.com/kootie/MOH_G2/tree/master
 cd MOH-Game
 
 # Install dependencies
